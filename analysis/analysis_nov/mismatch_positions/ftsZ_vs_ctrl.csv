@@ -1,0 +1,8 @@
+trans_id,genenames,probe_id,num_mismatch,mismatch_pos
+ECP_3033,ECP_3033,KFF-ftsZ JVpna-41 ECP_0097 reverse,0,
+ECP_0532,ybaB,KFF-ftsZ JVpna-41 ECP_0097,1,1
+ECP_2735,iap,KFF-ftsZ JVpna-41 ECP_0097,1,10
+ECP_3354,fis,KFF-ftsZ JVpna-41 ECP_0097,1,9
+ECP_0350,yagU,KFF-ftsZ JVpna-41 ECP_0097,2,2;6
+ECP_3050,ECP_3050,KFF-ftsZ JVpna-41 ECP_0097,2,4;10
+ECP_3659,cspA,KFF-ftsZ JVpna-41 ECP_0097,2,8;9

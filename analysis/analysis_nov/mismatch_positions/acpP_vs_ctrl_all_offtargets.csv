@@ -1,0 +1,565 @@
+trans_id,genenames,probe_id,num_mismatch,mismatch_pos
+ECP_1086,acpP,KFF-acpP Jvpna-21 ECP_1086,0,
+ECP_4552,ECP_4552,KFF-acpP Jvpna-21 ECP_1086,0,
+ECP_0065,araC,KFF-acpP Jvpna-21 ECP_1086 reverse,1,9
+ECP_0066,ECP_0066,KFF-acpPscr JVpna-14 none,1,6
+ECP_0116,ECP_0116,KFF-acpPscr JVpna-14 none,1,9
+ECP_0215,yafD,KFF-acpPscr JVpna-14 none reverse,1,1
+ECP_0225,ECP_0225,KFF-acpPscr JVpna-14 none,1,2
+ECP_0304,ECP_0304,KFF-acpP Jvpna-21 ECP_1086,1,10
+ECP_0353,ECP_0353,KFF-acpP Jvpna-21 ECP_1086,1,5
+ECP_0353,ECP_0353,KFF-acpP Jvpna-21 ECP_1086 reverse,1,4
+ECP_0420,ECP_0420,KFF-acpPscr JVpna-14 none,1,7
+ECP_0548,ECP_0548,KFF-acpPscr JVpna-14 none reverse,1,9
+ECP_0933,mukF,KFF-acpP Jvpna-21 ECP_1086,1,2
+ECP_0936,ycbB,KFF-acpP Jvpna-21 ECP_1086,1,10
+ECP_0936,ycbB,KFF-acpP Jvpna-21 ECP_1086 reverse,1,9
+ECP_0949,ECP_0949,KFF-acpP Jvpna-21 ECP_1086,1,9
+ECP_0956,pqiB,KFF-acpP Jvpna-21 ECP_1086,1,5
+ECP_1086,acpP,KFF-acpP Jvpna-21 ECP_1086 reverse,1,10
+ECP_1273,narK,KFF-acpP Jvpna-21 ECP_1086 reverse,1,7
+ECP_1382,ycjZ,KFF-acpPscr JVpna-14 none,1,7
+ECP_1408,ynbE,KFF-acpP Jvpna-21 ECP_1086,1,6
+ECP_1493,ECP_1493,KFF-acpPscr JVpna-14 none,1,8
+ECP_1537,ECP_1537,KFF-acpPscr JVpna-14 none,1,4
+ECP_1608,cfa,KFF-acpPscr JVpna-14 none reverse,1,7
+ECP_1665,ECP_1665,KFF-acpP Jvpna-21 ECP_1086 reverse,1,5
+ECP_1829,ECP_1829,KFF-acpPscr JVpna-14 none reverse,1,7
+ECP_1840,ECP_1840,KFF-acpP Jvpna-21 ECP_1086,1,10
+ECP_1890,ECP_1890,KFF-acpP Jvpna-21 ECP_1086,1,1
+ECP_1890,ECP_1890,KFF-acpP Jvpna-21 ECP_1086 reverse,1,10
+ECP_2333,ECP_2333,KFF-acpPscr JVpna-14 none reverse,1,8
+ECP_2444,ECP_2444,KFF-acpPscr JVpna-14 none,1,6
+ECP_2490,ECP_2490,KFF-acpPscr JVpna-14 none reverse,1,8
+ECP_2500,ECP_2500,KFF-acpP Jvpna-21 ECP_1086,1,10
+ECP_2538,suhB,KFF-acpPscr JVpna-14 none reverse,1,6
+ECP_2684,ECP_2684,KFF-acpP Jvpna-21 ECP_1086,1,6
+ECP_2811,ECP_2811,KFF-acpPscr JVpna-14 none reverse,1,2
+ECP_2821,NA,KFF-acpP Jvpna-21 ECP_1086,1,10
+ECP_2983,ECP_2983,KFF-acpPscr JVpna-14 none,1,4
+ECP_3038,ECP_3038,KFF-acpPscr JVpna-14 none,1,5
+ECP_3197,yqjF,KFF-acpP Jvpna-21 ECP_1086,1,10
+ECP_3199,yhaH,KFF-acpPscr JVpna-14 none reverse,1,7
+ECP_3389,ECP_3389,KFF-acpP Jvpna-21 ECP_1086 reverse,1,6
+ECP_3536,yhhY,KFF-acpPscr JVpna-14 none,1,9
+ECP_3542,ECP_3542,KFF-acpP Jvpna-21 ECP_1086,1,1
+ECP_3542,ECP_3542,KFF-acpP Jvpna-21 ECP_1086 reverse,1,10
+ECP_3559,yhhL,KFF-acpPscr JVpna-14 none,1,5
+ECP_3592,ECP_3592,KFF-acpPscr JVpna-14 none,1,7
+ECP_3624,ECP_3624,KFF-acpP Jvpna-21 ECP_1086,1,4
+ECP_3713,gpmI,KFF-acpP Jvpna-21 ECP_1086,1,1
+ECP_3713,gpmI,KFF-acpP Jvpna-21 ECP_1086 reverse,1,10
+ECP_3738,dut,KFF-acpPscr JVpna-14 none,1,6
+ECP_3971,ECP_3971,KFF-acpP Jvpna-21 ECP_1086,1,9
+ECP_4108,fdhD,KFF-acpPscr JVpna-14 none,1,5
+ECP_4184,murI,KFF-acpP Jvpna-21 ECP_1086,1,4
+ECP_4184,murI,KFF-acpP Jvpna-21 ECP_1086 reverse,1,3
+ECP_4376,ECP_4376,KFF-acpP Jvpna-21 ECP_1086,1,5
+ECP_4552,ECP_4552,KFF-acpP Jvpna-21 ECP_1086 reverse,1,10
+ECP_0003,thrB,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;9
+ECP_0032,carB,KFF-acpP Jvpna-21 ECP_1086 reverse,2,6;7
+ECP_0032,carB,KFF-acpPscr JVpna-14 none reverse,2,4;6
+ECP_0037,ECP_0037,KFF-acpPscr JVpna-14 none reverse,2,2;3
+ECP_0049,ccdA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;6
+ECP_0049,ccdA,KFF-acpPscr JVpna-14 none,2,6;7
+ECP_0056,ECP_0056,KFF-acpP Jvpna-21 ECP_1086,2,2;10
+ECP_0060,ECP_0060,KFF-acpPscr JVpna-14 none reverse,2,3;4
+ECP_0065,araC,KFF-acpP Jvpna-21 ECP_1086,2,1;10
+ECP_0089,mraY,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;8
+ECP_0100,secA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;5
+ECP_0104,coaE,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_0118,ECP_0118,KFF-acpPscr JVpna-14 none,2,7;10
+ECP_0125,acnB,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;4
+ECP_0151,ECP_0151,KFF-acpPscr JVpna-14 none reverse,2,2;8
+ECP_0166,erpA,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_0185,bamA,KFF-acpPscr JVpna-14 none,2,4;9
+ECP_0193,accA,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_0223,yafT,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_0228,ECP_0228,KFF-acpP Jvpna-21 ECP_1086,2,5;10
+ECP_0228,ECP_0228,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;9
+ECP_0230,ECP_0230,KFF-acpP Jvpna-21 ECP_1086,2,3;5
+ECP_0230,ECP_0230,KFF-acpPscr JVpna-14 none reverse,2,6;7
+ECP_0291,ECP_0291,KFF-acpP Jvpna-21 ECP_1086,2,5;10
+ECP_0294,ECP_0294,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;5
+ECP_0297,ECP_0297,KFF-acpPscr JVpna-14 none,2,3;6
+ECP_0304,ECP_0304,KFF-acpP Jvpna-21 ECP_1086 reverse,2,9;10
+ECP_0308,ECP_0308,KFF-acpPscr JVpna-14 none reverse,2,3;8
+ECP_0326,ECP_0326,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;7
+ECP_0326,ECP_0326,KFF-acpPscr JVpna-14 none,2,3;7
+ECP_0327,ECP_0327,KFF-acpP Jvpna-21 ECP_1086,2,2;10
+ECP_0328,ECP_0328,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_0338,ECP_0338,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;9
+ECP_0357,ECP_0357,KFF-acpP Jvpna-21 ECP_1086,2,1;4
+ECP_0357,ECP_0357,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;10
+ECP_0368,ECP_0368,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;8
+ECP_0368,ECP_0368,KFF-acpPscr JVpna-14 none,2,5;6
+ECP_0373,ykgD,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;9
+ECP_0374,lutA,KFF-acpPscr JVpna-14 none reverse,2,4;7
+ECP_0374,lutA,KFF-acpP Jvpna-21 ECP_1086,2,1;8
+ECP_0374,lutA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,7;10
+ECP_0394,NA,KFF-acpPscr JVpna-14 none reverse,2,6;9
+ECP_0408,prpC,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_0422,ECP_0422,KFF-acpP Jvpna-21 ECP_1086,2,4;5
+ECP_0471,ECP_0471,KFF-acpPscr JVpna-14 none,2,5;8
+ECP_0473,ribD,KFF-acpP Jvpna-21 ECP_1086 reverse,2,7;9
+ECP_0501,hupB,KFF-acpP Jvpna-21 ECP_1086,2,5;7
+ECP_0501,hupB,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;6
+ECP_0503,ybaV,KFF-acpP Jvpna-21 ECP_1086,2,2;10
+ECP_0503,ybaV,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;9
+ECP_0527,ECP_0527,KFF-acpP Jvpna-21 ECP_1086,2,9;10
+ECP_0527,ECP_0527,KFF-acpP Jvpna-21 ECP_1086 reverse,2,8;9
+ECP_0532,ybaB,KFF-acpPscr JVpna-14 none reverse,2,1;7
+ECP_0532,ybaB,KFF-acpPscr JVpna-14 none reverse,2,2;6
+ECP_0540,ECP_0540,KFF-acpPscr JVpna-14 none,2,3;5
+ECP_0541,ushA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;9
+ECP_0543,ECP_0543,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;4
+ECP_0556,ybbL,KFF-acpPscr JVpna-14 none reverse,2,7;8
+ECP_0559,ECP_0559,KFF-acpPscr JVpna-14 none,2,6;7
+ECP_0568,gcl,KFF-acpPscr JVpna-14 none reverse,2,2;4
+ECP_0603,cusC,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_0625,entC,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;9
+ECP_0626,entE,KFF-acpP Jvpna-21 ECP_1086,2,1;5
+ECP_0626,entE,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;10
+ECP_0636,ECP_0636,KFF-acpP Jvpna-21 ECP_1086 reverse,2,8;9
+ECP_0688,ECP_0688,KFF-acpP Jvpna-21 ECP_1086,2,2;10
+ECP_0688,ECP_0688,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;9
+ECP_0704,ECP_0704,KFF-acpPscr JVpna-14 none reverse,2,6;10
+ECP_0710,pgm,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_0716,ECP_0716,KFF-acpP Jvpna-21 ECP_1086,2,1;4
+ECP_0716,ECP_0716,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;10
+ECP_0736,sdhB,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;4
+ECP_0761,nadA,KFF-acpPscr JVpna-14 none,2,6;9
+ECP_0768,ECP_0768,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;7
+ECP_0768,ECP_0768,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;9
+ECP_0770,ECP_0770,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;3
+ECP_0783,ECP_0783,KFF-acpPscr JVpna-14 none reverse,2,4;8
+ECP_0787,gipA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;8
+ECP_0800,ybhL,KFF-acpPscr JVpna-14 none,2,5;9
+ECP_0826,dps,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_0833,ECP_0833,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_0847,yliE,KFF-acpPscr JVpna-14 none,2,1;9
+ECP_0852,ECP_0852,KFF-acpP Jvpna-21 ECP_1086,2,1;10
+ECP_0852,ECP_0852,KFF-acpP Jvpna-21 ECP_1086 reverse,2,9;10
+ECP_0857,ECP_0857,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_0864,ybjC,KFF-acpP Jvpna-21 ECP_1086,2,3;9
+ECP_0865,nfsA,KFF-acpPscr JVpna-14 none,2,1;7
+ECP_0886,ECP_0886,KFF-acpPscr JVpna-14 none,2,6;8
+ECP_0898,ECP_0898,KFF-acpP Jvpna-21 ECP_1086,2,5;8
+ECP_0898,ECP_0898,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;7
+ECP_0911,ECP_0911,KFF-acpP Jvpna-21 ECP_1086,2,5;10
+ECP_0921,cmk,KFF-acpPscr JVpna-14 none,2,7;8
+ECP_0927,ycaQ,KFF-acpPscr JVpna-14 none reverse,2,2;7
+ECP_0933,mukF,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;10
+ECP_0941,ECP_0941,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_0949,ECP_0949,KFF-acpP Jvpna-21 ECP_1086 reverse,2,8;10
+ECP_0953,rlmL,KFF-acpP Jvpna-21 ECP_1086,2,7;8
+ECP_0956,pqiB,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;10
+ECP_0958,rmf,KFF-acpP Jvpna-21 ECP_1086,2,1;2
+ECP_0958,rmf,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;10
+ECP_0971,yccU,KFF-acpPscr JVpna-14 none,2,3;7
+ECP_0973,ECP_0973,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_0976,ECP_0976,KFF-acpPscr JVpna-14 none reverse,2,1;4
+ECP_0976,ECP_0976,KFF-acpPscr JVpna-14 none,2,1;5
+ECP_0984,ECP_0984,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_0993,ECP_0993,KFF-acpP Jvpna-21 ECP_1086,2,2;5
+ECP_1019,phoH,KFF-acpPscr JVpna-14 none reverse,2,9;10
+ECP_1019,phoH,KFF-acpPscr JVpna-14 none,2,2;9
+ECP_1020,ECP_1020,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;5
+ECP_1023,ECP_1023,KFF-acpPscr JVpna-14 none reverse,2,4;8
+ECP_1026,ycdX,KFF-acpPscr JVpna-14 none,2,5;9
+ECP_1036,csgC,KFF-acpP Jvpna-21 ECP_1086,2,4;10
+ECP_1049,ECP_1049,KFF-acpP Jvpna-21 ECP_1086 reverse,2,7;9
+ECP_1083,fabH,KFF-acpPscr JVpna-14 none reverse,2,6;7
+ECP_1164,ECP_1164,KFF-acpPscr JVpna-14 none,2,6;8
+ECP_1168,W,KFF-acpP Jvpna-21 ECP_1086,2,5;10
+ECP_1170,ECP_1170,KFF-acpP Jvpna-21 ECP_1086,2,5;7
+ECP_1170,ECP_1170,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;6
+ECP_1182,JD73_18910,KFF-acpP Jvpna-21 ECP_1086,2,6;10
+ECP_1191,ECP_1191,KFF-acpPscr JVpna-14 none,2,3;7
+ECP_1193,ECP_1193,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;2
+ECP_1194,MA20_22200,KFF-acpPscr JVpna-14 none reverse,2,1;6
+ECP_1219,ECP_1219,KFF-acpP Jvpna-21 ECP_1086,2,7;8
+ECP_1236,emtA,KFF-acpPscr JVpna-14 none reverse,2,6;8
+ECP_1243,ECP_1243,KFF-acpPscr JVpna-14 none,2,4;7
+ECP_1256,ECP_1256,KFF-acpPscr JVpna-14 none,2,1;2
+ECP_1262,ychA,KFF-acpPscr JVpna-14 none,2,6;9
+ECP_1273,narK,KFF-acpP Jvpna-21 ECP_1086,2,1;8
+ECP_1284,ECP_1284,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;5
+ECP_1295,ECP_1295,KFF-acpPscr JVpna-14 none,2,1;4
+ECP_1327,ymiA,KFF-acpPscr JVpna-14 none reverse,2,7;9
+ECP_1336,ECP_1336,KFF-acpP Jvpna-21 ECP_1086,2,8;10
+ECP_1343,eefR,KFF-acpPscr JVpna-14 none reverse,2,9;10
+ECP_1348,ECP_1348,KFF-acpPscr JVpna-14 none,2,3;5
+ECP_1351,ECP_1351,KFF-acpP Jvpna-21 ECP_1086,2,2;5
+ECP_1397,dbpA,KFF-acpPscr JVpna-14 none,2,1;6
+ECP_1405,ECP_1405,KFF-acpPscr JVpna-14 none reverse,2,4;7
+ECP_1408,ynbE,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;10
+ECP_1421,ECP_1421,KFF-acpP Jvpna-21 ECP_1086,2,4;5
+ECP_1446,prr,KFF-acpPscr JVpna-14 none reverse,2,2;8
+ECP_1455,NA,KFF-acpPscr JVpna-14 none,2,1;6
+ECP_1455,NA,KFF-acpP Jvpna-21 ECP_1086,2,4;6
+ECP_1456,NA,KFF-acpPscr JVpna-14 none,2,6;7
+ECP_1456,NA,KFF-acpP Jvpna-21 ECP_1086,2,4;10
+ECP_1464,ECP_1464,KFF-acpPscr JVpna-14 none,2,3;6
+ECP_1472,ECP_1472,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;9
+ECP_1481,ECP_1481,KFF-acpPscr JVpna-14 none,2,4;5
+ECP_1490,ECP_1490,KFF-acpPscr JVpna-14 none,2,7;9
+ECP_1490,ECP_1490,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;3
+ECP_1498,NA,KFF-acpP Jvpna-21 ECP_1086,2,4;10
+ECP_1498,NA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_1528,ECP_1528,KFF-acpP Jvpna-21 ECP_1086 reverse,2,6;9
+ECP_1528,ECP_1528,KFF-acpPscr JVpna-14 none,2,1;7
+ECP_1530,ECP_1530,KFF-acpPscr JVpna-14 none reverse,2,6;8
+ECP_1538,ECP_1538,KFF-acpP Jvpna-21 ECP_1086,2,1;9
+ECP_1538,ECP_1538,KFF-acpP Jvpna-21 ECP_1086 reverse,2,8;10
+ECP_1541,ECP_1541,KFF-acpP Jvpna-21 ECP_1086,2,3;10
+ECP_1541,ECP_1541,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;9
+ECP_1541,ECP_1541,KFF-acpP Jvpna-21 ECP_1086,2,2;8
+ECP_1542,ydgD,KFF-acpP Jvpna-21 ECP_1086,2,6;10
+ECP_1542,ydgD,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;9
+ECP_1550,ECP_1550,KFF-acpPscr JVpna-14 none,2,7;8
+ECP_1556,ECP_1556,KFF-acpPscr JVpna-14 none reverse,2,6;10
+ECP_1559,ECP_1559,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;3
+ECP_1583,ECP_1583,KFF-acpPscr JVpna-14 none,2,6;7
+ECP_1598,rnt,KFF-acpP Jvpna-21 ECP_1086,2,5;8
+ECP_1598,rnt,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;7
+ECP_1599,ECP_1599,KFF-acpP Jvpna-21 ECP_1086,2,4;5
+ECP_1606,ECP_1606,KFF-acpP Jvpna-21 ECP_1086,2,4;9
+ECP_1608,cfa,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_1621,NA,KFF-acpP Jvpna-21 ECP_1086,2,5;9
+ECP_1621,NA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;8
+ECP_1661,ECP_1661,KFF-acpP Jvpna-21 ECP_1086,2,4;10
+ECP_1661,ECP_1661,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_1665,ECP_1665,KFF-acpP Jvpna-21 ECP_1086,2,1;6
+ECP_1668,ECP_1668,KFF-acpPscr JVpna-14 none reverse,2,2;9
+ECP_1680,ECP_1680,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_1689,ECP_1689,KFF-acpP Jvpna-21 ECP_1086,2,4;9
+ECP_1724,ECP_1724,KFF-acpP Jvpna-21 ECP_1086,2,5;10
+ECP_1735,yeaK,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;9
+ECP_1768,ECP_1768,KFF-acpPscr JVpna-14 none,2,4;6
+ryeA,ryeA,KFF-acpP Jvpna-21 ECP_1086,2,6;9
+ECP_1792,ECP_1792,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;3
+ECP_1796,ECP_1796,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;9
+ECP_1798,ECP_1798,KFF-acpP Jvpna-21 ECP_1086 reverse,2,7;9
+ECP_1800,ECP_1800,KFF-acpPscr JVpna-14 none,2,4;5
+ECP_1826,ECP_1826,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;8
+ECP_1827,ECP_1827,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;9
+ECP_1837,uspC,KFF-acpP Jvpna-21 ECP_1086,2,3;4
+ECP_1838,ECP_1838,KFF-acpP Jvpna-21 ECP_1086,2,1;4
+ECP_1838,ECP_1838,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;10
+ECP_1840,ECP_1840,KFF-acpP Jvpna-21 ECP_1086 reverse,2,9;10
+ECP_1847,yecR,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;4
+ECP_1851,ECP_1851,KFF-acpP Jvpna-21 ECP_1086,2,3;10
+ECP_1851,ECP_1851,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;9
+ECP_1852,ECP_1852,KFF-acpPscr JVpna-14 none,2,1;9
+ECP_1871,ECP_1871,KFF-acpPscr JVpna-14 none reverse,2,3;8
+ECP_1882,fliP,KFF-acpPscr JVpna-14 none,2,6;7
+ECP_1911,ECP_1911,KFF-acpPscr JVpna-14 none,2,7;9
+ECP_1912,NA,KFF-acpPscr JVpna-14 none,2,7;9
+ECP_1927,hns,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_1932,NA,KFF-acpPscr JVpna-14 none reverse,2,2;4
+ECP_1934,mtfA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;8
+ECP_1951,ECP_1951,KFF-acpPscr JVpna-14 none reverse,2,3;10
+ECP_1972,ECP_1972,KFF-acpP Jvpna-21 ECP_1086,2,5;10
+ECP_1976,ECP_1976,KFF-acpPscr JVpna-14 none,2,1;8
+ECP_1976,ECP_1976,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_1996,ECP_1996,KFF-acpP Jvpna-21 ECP_1086,2,3;10
+ECP_1996,ECP_1996,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;9
+ECP_1999,ECP_1999,KFF-acpP Jvpna-21 ECP_1086 reverse,2,6;7
+ECP_1999,ECP_1999,KFF-acpPscr JVpna-14 none reverse,2,4;10
+ECP_2001,ECP_2001,KFF-acpPscr JVpna-14 none reverse,2,2;8
+ECP_2002,ECP_2002,KFF-acpPscr JVpna-14 none reverse,2,9;10
+ECP_2005,ECP_2005,KFF-acpPscr JVpna-14 none reverse,2,3;6
+ECP_2005,ECP_2005,KFF-acpP Jvpna-21 ECP_1086,2,5;10
+ECP_2021,ECP_2021,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_2026,ECP_2026,KFF-acpPscr JVpna-14 none reverse,2,7;8
+ECP_2033,ECP_2033,KFF-acpP Jvpna-21 ECP_1086 reverse,2,8;9
+ECP_2043,ECP_2043,KFF-acpP Jvpna-21 ECP_1086,2,2;9
+ECP_2043,ECP_2043,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;8
+ECP_2048,NA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;9
+ECP_2058,ECP_2058,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;9
+ECP_2071,ECP_2071,KFF-acpP Jvpna-21 ECP_1086,2,5;10
+ECP_2071,ECP_2071,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;9
+ECP_2080,ECP_2080,KFF-acpP Jvpna-21 ECP_1086,2,8;10
+ECP_2082,ECP_2082,KFF-acpPscr JVpna-14 none,2,3;7
+ECP_2090,ECP_2090,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_2096,ECP_2096,KFF-acpP Jvpna-21 ECP_1086 reverse,2,8;9
+ECP_2102,NA,KFF-acpPscr JVpna-14 none reverse,2,8;10
+ECP_2124,ECP_2124,KFF-acpPscr JVpna-14 none reverse,2,8;10
+ECP_2153,JD73_20480,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;4
+ECP_2170,ECP_2170,KFF-acpP Jvpna-21 ECP_1086,2,2;5
+ECP_2178,ECP_2178,KFF-acpPscr JVpna-14 none,2,5;7
+ECP_2180,lrgA,KFF-acpP Jvpna-21 ECP_1086,2,1;4
+ECP_2180,lrgA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;10
+ECP_2180,lrgA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,6;9
+ECP_2182,cdd,KFF-acpP Jvpna-21 ECP_1086,2,1;4
+ECP_2182,cdd,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;10
+ECP_2190,ECP_2190,KFF-acpPscr JVpna-14 none,2,1;4
+ECP_2195,ECP_2195,KFF-acpPscr JVpna-14 none,2,7;8
+ECP_2201,ECP_2201,KFF-acpPscr JVpna-14 none,2,7;9
+ECP_2204,ECP_2204,KFF-acpPscr JVpna-14 none,2,3;7
+ECP_2210,setB,KFF-acpPscr JVpna-14 none reverse,2,7;10
+ECP_2220,yejE,KFF-acpP Jvpna-21 ECP_1086,2,4;6
+ECP_2256,ECP_2256,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_2274,ECP_2274,KFF-acpPscr JVpna-14 none reverse,2,3;9
+ECP_2293,ECP_2293,KFF-acpPscr JVpna-14 none,2,2;7
+ECP_2310,ECP_2310,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;6
+ECP_2327,ECP_2327,KFF-acpP Jvpna-21 ECP_1086 reverse,2,8;9
+ECP_2328,ECP_2328,KFF-acpP Jvpna-21 ECP_1086,2,1;2
+ECP_2328,ECP_2328,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;10
+ECP_2339,ECP_2339,KFF-acpPscr JVpna-14 none,2,4;5
+ECP_2340,ECP_2340,KFF-acpPscr JVpna-14 none,2,3;7
+ECP_2343,yfcH,KFF-acpPscr JVpna-14 none,2,1;3
+ECP_2353,ECP_2353,KFF-acpPscr JVpna-14 none reverse,2,7;10
+ECP_2362,ECP_2362,KFF-acpPscr JVpna-14 none,2,4;7
+ECP_2370,yfcN,KFF-acpPscr JVpna-14 none reverse,2,3;4
+ECP_2370,yfcN,KFF-acpPscr JVpna-14 none,2,3;8
+ECP_2401,ECP_2401,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;9
+ECP_2407,ypdB,KFF-acpPscr JVpna-14 none reverse,2,8;9
+ECP_2407,ypdB,KFF-acpPscr JVpna-14 none,2,3;6
+ECP_2413,NA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,6;9
+ECP_2428,ECP_2428,KFF-acpPscr JVpna-14 none reverse,2,6;10
+ECP_2429,ECP_2429,KFF-acpP Jvpna-21 ECP_1086,2,1;4
+ECP_2429,ECP_2429,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;10
+ECP_2468,NA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;9
+ECP_2500,ECP_2500,KFF-acpP Jvpna-21 ECP_1086 reverse,2,9;10
+ECP_2507,yfgH,KFF-acpPscr JVpna-14 none,2,2;3
+ECP_2529,ECP_2529,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;8
+ECP_2536,ECP_2536,KFF-acpP Jvpna-21 ECP_1086,2,1;6
+ECP_2536,ECP_2536,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;10
+ECP_2551,yphH,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;4
+ECP_2557,ECP_2557,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;8
+ECP_2574,ECP_2574,KFF-acpP Jvpna-21 ECP_1086,2,3;8
+ECP_2590,ECP_2590,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;5
+ECP_2590,ECP_2590,KFF-acpPscr JVpna-14 none reverse,2,5;6
+ECP_2596,ECP_2596,KFF-acpP Jvpna-21 ECP_1086,2,5;8
+ECP_2604,yfiR,KFF-acpPscr JVpna-14 none,2,1;6
+ECP_2607,rplS,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_2625,gabT,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;8
+ECP_2639,nrdI,KFF-acpP Jvpna-21 ECP_1086,2,3;5
+ECP_2644,proW,KFF-acpPscr JVpna-14 none,2,1;6
+ECP_2650,emrA,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+micA,micA,KFF-acpP Jvpna-21 ECP_1086,2,1;6
+micA,micA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;10
+micA,micA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,7;8
+ECP_2660,ECP_2660,KFF-acpPscr JVpna-14 none reverse,2,2;6
+ECP_2660,ECP_2660,KFF-acpPscr JVpna-14 none,2,4;6
+ECP_2662,srlA,KFF-acpPscr JVpna-14 none reverse,2,2;10
+ECP_2677,ascB,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;9
+ECP_2684,ECP_2684,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;10
+ECP_2685,ECP_2685,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;5
+ECP_2685,ECP_2685,KFF-acpP Jvpna-21 ECP_1086,2,1;5
+ECP_2685,ECP_2685,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;10
+ECP_2696,ECP_2696,KFF-acpP Jvpna-21 ECP_1086,2,9;10
+ECP_2699,ECP_2699,KFF-acpPscr JVpna-14 none,2,4;6
+ECP_2727,ECP_2727,KFF-acpPscr JVpna-14 none reverse,2,2;7
+ECP_2727,ECP_2727,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;9
+ECP_2741,NA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;8
+ECP_2787,fucU,KFF-acpPscr JVpna-14 none reverse,2,2;4
+ECP_2810,ECP_2810,KFF-acpPscr JVpna-14 none,2,3;7
+ECP_2815,ECP_2815,KFF-acpP Jvpna-21 ECP_1086,2,1;10
+ECP_2815,ECP_2815,KFF-acpP Jvpna-21 ECP_1086 reverse,2,9;10
+ECP_2821,NA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,9;10
+ECP_2826,ECP_2826,KFF-acpPscr JVpna-14 none,2,3;7
+ECP_2832,ECP_2832,KFF-acpP Jvpna-21 ECP_1086,2,2;5
+ECP_2833,ECP_2833,KFF-acpP Jvpna-21 ECP_1086,2,1;4
+ECP_2833,ECP_2833,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;10
+omrA,omrA,KFF-acpPscr JVpna-14 none,2,4;7
+omrB,omrB,KFF-acpPscr JVpna-14 none,2,4;7
+ECP_2857,ECP_2857,KFF-acpPscr JVpna-14 none,2,4;6
+ECP_2859,ECP_2859,KFF-acpP Jvpna-21 ECP_1086,2,4;6
+ECP_2868,ECP_2868,KFF-acpP Jvpna-21 ECP_1086 reverse,2,6;9
+ECP_2887,ECP_2887,KFF-acpPscr JVpna-14 none reverse,2,6;8
+ECP_2895,bglA,KFF-acpPscr JVpna-14 none,2,1;2
+ECP_2901,ECP_2901,KFF-acpPscr JVpna-14 none reverse,2,8;10
+ssrS,ssrS,KFF-acpPscr JVpna-14 none reverse,2,1;5
+ECP_2939,endA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,6;8
+ECP_2939,endA,KFF-acpPscr JVpna-14 none,2,4;5
+ECP_2952,ECP_2952,KFF-acpP Jvpna-21 ECP_1086,2,4;10
+ECP_2953,ECP_2953,KFF-acpPscr JVpna-14 none,2,5;6
+ECP_2956,yggX,KFF-acpP Jvpna-21 ECP_1086,2,5;10
+ECP_2981,ECP_2981,KFF-acpPscr JVpna-14 none reverse,2,4;6
+ECP_2986,ECP_2986,KFF-acpP Jvpna-21 ECP_1086,2,6;10
+ECP_3001,NA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_3002,NA,KFF-acpPscr JVpna-14 none reverse,2,7;8
+ECP_3004,ECP_3004,KFF-acpPscr JVpna-14 none,2,6;9
+ECP_3007,ECP_3007,KFF-acpPscr JVpna-14 none reverse,2,5;10
+ECP_3007,ECP_3007,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_3007,ECP_3007,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;3
+ECP_3022,kpsD,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;8
+ECP_3022,kpsD,KFF-acpPscr JVpna-14 none,2,4;6
+ECP_3026,ECP_3026,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_3027,ECP_3027,KFF-acpP Jvpna-21 ECP_1086,2,4;9
+ECP_3032,ECP_3032,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;5
+ECP_3032,ECP_3032,KFF-acpPscr JVpna-14 none,2,6;8
+ECP_3033,ECP_3033,KFF-acpP Jvpna-21 ECP_1086,2,9;10
+ECP_3033,ECP_3033,KFF-acpP Jvpna-21 ECP_1086 reverse,2,8;9
+ECP_3036,ECP_3036,KFF-acpP Jvpna-21 ECP_1086,2,4;7
+ECP_3038,ECP_3038,KFF-acpPscr JVpna-14 none reverse,2,6;7
+ECP_3062,AKN40_0794,KFF-acpPscr JVpna-14 none,2,3;9
+ECP_3065,ECP_3065,KFF-acpPscr JVpna-14 none,2,2;4
+ECP_3067,ECP_3067,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;4
+ECP_3080,ECP_3080,KFF-acpP Jvpna-21 ECP_1086,2,2;5
+ECP_3084,ECP_3084,KFF-acpP Jvpna-21 ECP_1086,2,3;5
+ECP_3100,ECP_3100,KFF-acpP Jvpna-21 ECP_1086,2,1;7
+ECP_3100,ECP_3100,KFF-acpP Jvpna-21 ECP_1086 reverse,2,6;10
+ECP_3119,ECP_3119,KFF-acpP Jvpna-21 ECP_1086,2,2;10
+ECP_3149,plsY,KFF-acpP Jvpna-21 ECP_1086,2,3;4
+ECP_3197,yqjF,KFF-acpP Jvpna-21 ECP_1086 reverse,2,9;10
+ECP_3202,yhaL,KFF-acpPscr JVpna-14 none,2,6;7
+ECP_3208,ECP_3208,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;4
+ECP_3209,ECP_3209,KFF-acpP Jvpna-21 ECP_1086,2,3;4
+ECP_3220,yhaV,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;4
+ECP_3227,agaA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_3241,yfkM,KFF-acpP Jvpna-21 ECP_1086 reverse,2,6;9
+ECP_3269,dacB,KFF-acpP Jvpna-21 ECP_1086,2,4;9
+ECP_3269,dacB,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;8
+ECP_3290,rpoN,KFF-acpP Jvpna-21 ECP_1086,2,7;10
+ECP_3300,ECP_3300,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;9
+ECP_3336,ECP_3336,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;4
+ECP_3344,ECP_3344,KFF-acpPscr JVpna-14 none reverse,2,2;6
+ECP_3355,yhdJ,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;4
+ECP_3366,yhdZ,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_3373,ECP_3373,KFF-acpPscr JVpna-14 none,2,7;8
+ECP_3386,ECP_3386,KFF-acpP Jvpna-21 ECP_1086,2,2;7
+ECP_3389,ECP_3389,KFF-acpP Jvpna-21 ECP_1086,2,1;7
+ECP_3403,ECP_3403,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;6
+ECP_3404,ECP_3404,KFF-acpP Jvpna-21 ECP_1086,2,5;8
+ECP_3407,ECP_3407,KFF-acpPscr JVpna-14 none,2,8;9
+ECP_3408,ECP_3408,KFF-acpPscr JVpna-14 none reverse,2,3;7
+ECP_3437,ECP_3437,KFF-acpPscr JVpna-14 none,2,7;8
+ECP_3446,prkB,KFF-acpPscr JVpna-14 none reverse,2,4;7
+ECP_3450,ECP_3450,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;4
+ECP_3479,ECP_3479,KFF-acpP Jvpna-21 ECP_1086,2,1;8
+ECP_3479,ECP_3479,KFF-acpP Jvpna-21 ECP_1086 reverse,2,7;10
+ECP_3484,yrfF,KFF-acpP Jvpna-21 ECP_1086,2,2;5
+ECP_3490,ECP_3490,KFF-acpP Jvpna-21 ECP_1086,2,2;5
+ECP_3511,glpD,KFF-acpP Jvpna-21 ECP_1086,2,3;5
+ECP_3511,glpD,KFF-acpPscr JVpna-14 none reverse,2,6;7
+ECP_3524,ECP_3524,KFF-acpPscr JVpna-14 none,2,4;9
+ryhB,ryhB,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;4
+ECP_3536,yhhY,KFF-acpPscr JVpna-14 none reverse,2,6;8
+ECP_3543,ECP_3543,KFF-acpPscr JVpna-14 none,2,1;2
+ECP_3544,ECP_3544,KFF-acpPscr JVpna-14 none reverse,2,2;7
+ECP_3546,ECP_3546,KFF-acpPscr JVpna-14 none,2,7;9
+ECP_3549,ECP_3549,KFF-acpPscr JVpna-14 none,2,4;8
+ECP_3549,ECP_3549,KFF-acpP Jvpna-21 ECP_1086,2,2;10
+ECP_3549,ECP_3549,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;9
+ECP_3551,ECP_3551,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_3560,ECP_3560,KFF-acpPscr JVpna-14 none reverse,2,3;8
+ECP_3596,ECP_3596,KFF-acpPscr JVpna-14 none,2,5;7
+ECP_3608,ECP_3608,KFF-acpP Jvpna-21 ECP_1086,2,2;8
+ECP_3614,ECP_3614,KFF-acpPscr JVpna-14 none,2,2;9
+ECP_3624,ECP_3624,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;10
+ECP_3641,ECP_3641,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_3657,ECP_3657,KFF-acpP Jvpna-21 ECP_1086 reverse,2,6;9
+ECP_3664,wecH,KFF-acpPscr JVpna-14 none reverse,2,3;9
+ECP_3666,ECP_3666,KFF-acpPscr JVpna-14 none,2,6;9
+ECP_3686,sgbH,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_3689,ECP_3689,KFF-acpPscr JVpna-14 none reverse,2,6;10
+ECP_3702,NA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_3703,ECP_3703,KFF-acpPscr JVpna-14 none reverse,2,3;4
+ECP_3717,ECP_3717,KFF-acpP Jvpna-21 ECP_1086,2,3;6
+ECP_3717,ECP_3717,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;5
+ECP_3778,ECP_3778,KFF-acpP Jvpna-21 ECP_1086,2,5;7
+ECP_3787,ECP_3787,KFF-acpPscr JVpna-14 none reverse,2,2;9
+ECP_3789,ECP_3789,KFF-acpPscr JVpna-14 none reverse,2,2;7
+ECP_3803,ECP_3803,KFF-acpPscr JVpna-14 none,2,7;9
+ECP_3813,ECP_3813,KFF-acpP Jvpna-21 ECP_1086,2,4;10
+ECP_3817,ECP_3817,KFF-acpPscr JVpna-14 none reverse,2,8;10
+ECP_3826,hlyC,KFF-acpPscr JVpna-14 none,2,9;10
+ECP_3829,hlyD,KFF-acpP Jvpna-21 ECP_1086,2,4;10
+ECP_3829,hlyD,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_3832,ibrB,KFF-acpP Jvpna-21 ECP_1086,2,3;10
+ECP_3832,ibrB,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;9
+ECP_3859,ECP_3859,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;9
+ECP_3863,ECP_3863,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;9
+ECP_3863,ECP_3863,KFF-acpPscr JVpna-14 none,2,3;5
+ECP_3876,ECP_3876,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;9
+ECP_3879,emrD,KFF-acpPscr JVpna-14 none,2,2;7
+ECP_3880,ECP_3880,KFF-acpPscr JVpna-14 none reverse,2,2;6
+ECP_3884,ECP_3884,KFF-acpP Jvpna-21 ECP_1086 reverse,2,2;3
+ECP_3888,ECP_3888,KFF-acpPscr JVpna-14 none,2,4;7
+ECP_3907,mnmE,KFF-acpPscr JVpna-14 none,2,2;7
+ECP_3913,yieF,KFF-acpPscr JVpna-14 none reverse,2,2;10
+ECP_3914,ECP_3914,KFF-acpPscr JVpna-14 none,2,1;7
+ECP_3914,ECP_3914,KFF-acpP Jvpna-21 ECP_1086,2,4;5
+ECP_3916,yieI,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;9
+ECP_3921,ECP_3921,KFF-acpPscr JVpna-14 none reverse,2,3;5
+ECP_3943,asnA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,7;9
+ECP_3946,kup,KFF-acpP Jvpna-21 ECP_1086,2,3;4
+ECP_3971,ECP_3971,KFF-acpP Jvpna-21 ECP_1086 reverse,2,8;10
+ECP_3972,ECP_3972,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_3973,trxA,KFF-acpP Jvpna-21 ECP_1086,2,4;8
+ECP_3976,wzzE,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;8
+ECP_4048,ubiE,KFF-acpPscr JVpna-14 none,2,6;10
+ECP_4053,tatC,KFF-acpPscr JVpna-14 none reverse,2,8;10
+ECP_4056,ubiD,KFF-acpP Jvpna-21 ECP_1086,2,4;7
+ECP_4063,hemG,KFF-acpPscr JVpna-14 none reverse,2,2;7
+ECP_4117,ECP_4117,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;7
+ECP_4117,ECP_4117,KFF-acpP Jvpna-21 ECP_1086,2,4;5
+ECP_4118,sodA,KFF-acpP Jvpna-21 ECP_1086,2,1;4
+ECP_4118,sodA,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;10
+ECP_4125,pfkA,KFF-acpPscr JVpna-14 none,2,4;9
+ECP_4136,ECP_4136,KFF-acpP Jvpna-21 ECP_1086,2,1;4
+ECP_4136,ECP_4136,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;10
+ECP_4143,ECP_4143,KFF-acpP Jvpna-21 ECP_1086 reverse,2,5;9
+ECP_4155,metF,KFF-acpP Jvpna-21 ECP_1086,2,2;3
+ECP_4209,nudC,KFF-acpPscr JVpna-14 none reverse,2,5;6
+ECP_4218,ECP_4218,KFF-acpP Jvpna-21 ECP_1086,2,2;8
+ECP_4222,ECP_4222,KFF-acpP Jvpna-21 ECP_1086,2,4;8
+ECP_4222,ECP_4222,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;7
+ECP_4242,ECP_4242,KFF-acpPscr JVpna-14 none,2,4;9
+ECP_4252,ECP_4252,KFF-acpP Jvpna-21 ECP_1086,2,4;10
+ECP_4252,ECP_4252,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_4255,malM,KFF-acpP Jvpna-21 ECP_1086,2,4;6
+ECP_4264,ECP_4264,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;8
+ECP_4269,ECP_4269,KFF-acpP Jvpna-21 ECP_1086 reverse,2,8;9
+ECP_4284,yjbQ,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;6
+ECP_4301,ECP_4301,KFF-acpP Jvpna-21 ECP_1086,2,2;5
+ECP_4304,nrfB,KFF-acpP Jvpna-21 ECP_1086,2,1;4
+ECP_4304,nrfB,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;10
+ECP_4332,ECP_4332,KFF-acpPscr JVpna-14 none,2,5;6
+ECP_4356,ECP_4356,KFF-acpPscr JVpna-14 none,2,4;5
+ECP_4369,yjdI,KFF-acpPscr JVpna-14 none,2,5;8
+ECP_4376,ECP_4376,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;10
+ECP_4392,ecnA,KFF-acpPscr JVpna-14 none,2,6;7
+ECP_4397,ECP_4397,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;5
+ECP_4432,aidB,KFF-acpPscr JVpna-14 none reverse,2,2;7
+ECP_4438,ulaA,KFF-acpPscr JVpna-14 none,2,6;9
+ECP_4447,rpsR,KFF-acpPscr JVpna-14 none reverse,2,2;10
+ECP_4448,rplI,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;5
+ECP_4448,rplI,KFF-acpP Jvpna-21 ECP_1086,2,5;8
+ECP_4452,ECP_4452,KFF-acpP Jvpna-21 ECP_1086,2,1;10
+ECP_4452,ECP_4452,KFF-acpP Jvpna-21 ECP_1086 reverse,2,9;10
+ECP_4466,ytfH,KFF-acpP Jvpna-21 ECP_1086 reverse,2,1;9
+ECP_4482,ECP_4482,KFF-acpPscr JVpna-14 none,2,1;2
+ECP_4483,ECP_4483,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;5
+ECP_4486,ECP_4486,KFF-acpPscr JVpna-14 none,2,3;7
+ECP_4494,ECP_4494,KFF-acpPscr JVpna-14 none,2,3;8
+ECP_4500,ECP_4500,KFF-acpPscr JVpna-14 none reverse,2,5;8
+ECP_4506,yjgN,KFF-acpPscr JVpna-14 none reverse,2,3;8
+ECP_4514,ECP_4514,KFF-acpPscr JVpna-14 none reverse,2,3;8
+ECP_4514,ECP_4514,KFF-acpPscr JVpna-14 none,2,7;8
+ECP_4518,ECP_4518,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_4524,ECP_4524,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;7
+ECP_4536,ECP_4536,KFF-acpP Jvpna-21 ECP_1086,2,2;4
+ECP_4536,ECP_4536,KFF-acpP Jvpna-21 ECP_1086 reverse,2,6;8
+ECP_4546,ECP_4546,KFF-acpPscr JVpna-14 none,2,1;10
+ECP_4553,ECP_4553,KFF-acpP Jvpna-21 ECP_1086,2,4;10
+ECP_4553,ECP_4553,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_4562,ECP_4562,KFF-acpP Jvpna-21 ECP_1086,2,4;9
+ECP_4572,ECP_4572,KFF-acpPscr JVpna-14 none reverse,2,4;10
+ECP_4584,ECP_4584,KFF-acpPscr JVpna-14 none reverse,2,2;8
+ECP_4611,ECP_4611,KFF-acpPscr JVpna-14 none,2,3;5
+ECP_4614,Z012_05710,KFF-acpPscr JVpna-14 none,2,1;9
+ECP_4625,ECP_4625,KFF-acpP Jvpna-21 ECP_1086,2,9;10
+ECP_4643,ECP_4643,KFF-acpPscr JVpna-14 none,2,5;9
+ECP_4658,uxuA,KFF-acpPscr JVpna-14 none reverse,2,1;6
+ECP_4680,ECP_4680,KFF-acpP Jvpna-21 ECP_1086,2,5;10
+ECP_4759,osmY,KFF-acpP Jvpna-21 ECP_1086 reverse,2,3;9
+ECP_4765,deoC,KFF-acpP Jvpna-21 ECP_1086 reverse,2,4;9
+ECP_4774,ECP_4774,KFF-acpPscr JVpna-14 none,2,7;8
+ECP_4775,ECP_4775,KFF-acpPscr JVpna-14 none reverse,2,2;4
+ECP_4778,slt,KFF-acpP Jvpna-21 ECP_1086,2,5;9
+ECP_4782,ECP_4782,KFF-acpP Jvpna-21 ECP_1086,2,2;5

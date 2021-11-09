@@ -1,0 +1,8 @@
+trans_id,genenames,probe_id,num_mismatch,mismatch_pos
+ECP_3906,yidC,KFF-yidC JVpna-44 ECP_3906,0,
+ECP_0440,ECP_0440,KFF-yidC JVpna-44 ECP_3906,2,2;4
+ECP_0940,ECP_0940,KFF-yidC JVpna-44 ECP_3906,2,4;9
+ECP_1395,zntB,KFF-yidC JVpna-44 ECP_3906,2,2;4
+ECP_1547,ECP_1547,KFF-yidC JVpna-44 ECP_3906,2,1;3
+ECP_1867,ompD,KFF-yidC JVpna-44 ECP_3906,2,2;9
+ECP_4768,deoD,KFF-yidC JVpna-44 ECP_3906,2,1;10

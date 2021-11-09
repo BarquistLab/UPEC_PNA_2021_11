@@ -1,0 +1,8 @@
+trans_id,genenames,probe_id,num_mismatch,mismatch_pos
+ECP_0179,pyrH,KFF-pyrH JVpna-43 ECP_0179,0,
+ECP_1549,ydgI,KFF-pyrH JVpna-43 ECP_0179,2,7;8
+ECP_1551,ECP_1551,KFF-pyrH JVpna-43 ECP_0179,2,2;6
+ECP_1857,ECP_1857,KFF-pyrH JVpna-43 ECP_0179,2,1;5
+ECP_2776,queF,KFF-pyrH JVpna-43 ECP_0179,2,1;10
+ECP_3166,ebgR,KFF-pyrH JVpna-43 ECP_0179,2,1;2
+ECP_4287,ssb,KFF-pyrH JVpna-43 ECP_0179,2,2;3

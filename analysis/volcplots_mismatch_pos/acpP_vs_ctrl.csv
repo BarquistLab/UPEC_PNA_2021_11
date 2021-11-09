@@ -1,0 +1,7 @@
+trans_id,genenames,probe_id,num_mismatch,mismatch_pos
+ECP_1086,acpP,KFF-acpP Jvpna-21 ECP_1086,0,
+ECP_0304,ECP_0304,KFF-acpP Jvpna-21 ECP_1086,1,10
+ECP_2750,ECP_2750,KFF-acpP Jvpna-21 ECP_1086,1,9
+ECP_3542,ECP_3542,KFF-acpP Jvpna-21 ECP_1086,1,1
+ECP_0852,ECP_0852,KFF-acpP Jvpna-21 ECP_1086,2,1;10
+ECP_2696,ECP_2696,KFF-acpP Jvpna-21 ECP_1086,2,9;10

@@ -1,0 +1,6 @@
+trans_id,genenames,probe_id,num_mismatch,mismatch_pos
+ECP_1216,ECP_1216,KFF-dnaB JVpna-40 ECP_4268,2,2;10
+ECP_1217,ECP_1217,KFF-dnaB JVpna-40 ECP_4268,2,1;10
+ECP_1808,ECP_1808,KFF-dnaB JVpna-40 ECP_4268,2,1;2
+ECP_2935,metK,KFF-dnaB JVpna-40 ECP_4268,2,2;10
+ECP_4545,ECP_4545,KFF-dnaB JVpna-40 ECP_4268,2,1;2

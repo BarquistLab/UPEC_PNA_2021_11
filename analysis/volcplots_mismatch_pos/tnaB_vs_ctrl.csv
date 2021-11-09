@@ -1,0 +1,4 @@
+trans_id,genenames,probe_id,num_mismatch,mismatch_pos
+ECP_3035,ECP_3035,KFF-tnaB JVpna-39 ECP_3909,2,1;10
+ECP_3041,ECP_3041,KFF-tnaB JVpna-39 ECP_3909,2,3;9
+ECP_3295,ECP_3295,KFF-tnaB JVpna-39 ECP_3909,2,2;9

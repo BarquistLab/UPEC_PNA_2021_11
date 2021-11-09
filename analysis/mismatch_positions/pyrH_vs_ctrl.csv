@@ -1,0 +1,15 @@
+trans_id,genenames,probe_id,num_mismatch,mismatch_pos
+ECP_0179,pyrH,KFF-pyrH JVpna-43 ECP_0179,0,
+ECP_0133,hpt,KFF-pyrH JVpna-43 ECP_0179 reverse,1,2
+ECP_1551,ECP_1551,KFF-pyrH JVpna-43 ECP_0179 reverse,1,5
+ECP_4419,hflK,KFF-pyrH JVpna-43 ECP_0179,1,2
+ECP_0350,yagU,KFF-pyrH JVpna-43 ECP_0179 reverse,2,8;9
+ECP_1157,ECP_1157,KFF-pyrH JVpna-43 ECP_0179 reverse,2,1;8
+ECP_1551,ECP_1551,KFF-pyrH JVpna-43 ECP_0179,2,2;6
+ECP_1583,ECP_1583,KFF-pyrH JVpna-43 ECP_0179,2,2;4
+ECP_1857,ECP_1857,KFF-pyrH JVpna-43 ECP_0179,2,1;5
+ECP_2776,queF,KFF-pyrH JVpna-43 ECP_0179,2,1;10
+ECP_3659,cspA,KFF-pyrH JVpna-43 ECP_0179 reverse,2,5;8
+ECP_4107,ECP_4107,KFF-pyrH JVpna-43 ECP_0179,2,1;8
+ECP_4287,ssb,KFF-pyrH JVpna-43 ECP_0179,2,2;3
+ECP_4419,hflK,KFF-pyrH JVpna-43 ECP_0179,2,2;6

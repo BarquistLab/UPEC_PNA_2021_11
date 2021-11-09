@@ -1,0 +1,6 @@
+trans_id,genenames,probe_id,num_mismatch,mismatch_pos
+ECP_3157,rpoD,KFF-rpoD JVpna-42 ECP_3157,0,
+ECP_0127,ECP_0127,KFF-rpoD JVpna-42 ECP_3157,2,5;8
+ECP_0199,yaeQ,KFF-rpoD JVpna-42 ECP_3157,2,1;2
+ECP_1406,ECP_1406,KFF-rpoD JVpna-42 ECP_3157,2,1;10
+ECP_3046,ECP_3046,KFF-rpoD JVpna-42 ECP_3157,2,4;7

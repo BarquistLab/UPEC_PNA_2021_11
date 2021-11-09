@@ -1,0 +1,17 @@
+trans_id,genenames,probe_id,num_mismatch,mismatch_pos
+ECP_1086,acpP,KFF-acpP Jvpna-21 ECP_1086,0,
+ECP_0304,ECP_0304,KFF-acpP Jvpna-21 ECP_1086,1,10
+ECP_0936,ycbB,KFF-acpP Jvpna-21 ECP_1086,1,10
+ECP_0936,ycbB,KFF-acpP Jvpna-21 ECP_1086 reverse,1,9
+ECP_1086,acpP,KFF-acpP Jvpna-21 ECP_1086 reverse,1,10
+ECP_2500,ECP_2500,KFF-acpP Jvpna-21 ECP_1086,1,10
+ECP_3542,ECP_3542,KFF-acpP Jvpna-21 ECP_1086,1,1
+ECP_3542,ECP_3542,KFF-acpP Jvpna-21 ECP_1086 reverse,1,10
+ECP_3713,gpmI,KFF-acpP Jvpna-21 ECP_1086,1,1
+ECP_3713,gpmI,KFF-acpP Jvpna-21 ECP_1086 reverse,1,10
+ECP_0304,ECP_0304,KFF-acpP Jvpna-21 ECP_1086 reverse,2,9;10
+ECP_0852,ECP_0852,KFF-acpP Jvpna-21 ECP_1086,2,1;10
+ECP_0852,ECP_0852,KFF-acpP Jvpna-21 ECP_1086 reverse,2,9;10
+ECP_2327,ECP_2327,KFF-acpP Jvpna-21 ECP_1086 reverse,2,8;9
+ECP_2500,ECP_2500,KFF-acpP Jvpna-21 ECP_1086 reverse,2,9;10
+ECP_3543,ECP_3543,KFF-acpPscr JVpna-14 none,2,1;2
