@@ -1,0 +1,12 @@
+locus_tag,gene_name,mRNA_sequence,binding,MFE
+ECP_0027,ispH,AUUGAAGUGCUGGAAAUCGAUCCGGCACUGGAGGCGUAACAUGCAGAUCCUGUUGGCCAACCCGCGUGGUUUUUGUGCCGGGGUAGACCGCG,.....(((((((((......)))))))))((.(((.(((((.........))))))))...)).((((((((.(.(....).).)))))))),-30.6
+ECP_0097,ftsZ,AUUACGGCCUCAGGCGACAGGCACAAAUCGGAGAGAAACUAUGUUUGAACCAAUGGAACUUACCAAUGACGCGGUGAUUAAAGUCAUCGGCG,......((((........)))).....(((((.(.......).)))))..((.(((......))).)).(((((((((....)))))).))),-17.7
+ECP_0179,pyrH,AUUAAUUCAUUUCAAUCGUUGACAGUCUCAGGAAAGAAACAUGGCUACCAAUGCAAAACCCGUCUAUAAACGCAUUCUGCUUAAGUUGAGUG,................(((((..((((...............))))..))))).......(((......)))(((((.((....)).))))),-9.4
+ECP_1086,acpP,AACCAUCGCGAAAGCGAGUUUUGAUAGGAAAUUUAAGAGUAUGAGCACUAUCGAAGAACGCGUUAAGAAAAUUAUCGGCGAACAGCUGGGCG,......(((....(((..(((((((((....................)))))))))..))).............(((((.....)))))))),-17.6
+ECP_2607,rplS,CCCCCGAGAUAUCAGUUUACCCAGGAUAAGAGAUUAAAUUAUGAGCAACAUUAUUAAGCAACUUGAACAAGAGCAGAUGAAGCAGGACGUAC,..((.(...((((.((((.....(..((((...((((...(((.....)))..))))....))))..)..)))).))))...).))......,-4.7
+ECP_2656,csrA,CAGAGAGACCCGACUCUUUUAAUCUUUCAAGGAGCAAAGAAUGCUGAUUCUGACUCGUCGAGUUGGUGAGACCCUCAUGAUUGGGGAUGAGG,.((((((......))))))..(((.(((.(.(((...(((((....)))))..))).).)))..))).....((((((........)))))),-20.8
+ECP_3157,rpoD,CCCAACACCAACCUCAUGAAAUAAGUGUGGAUACCGUCUUAUGGAGCAAAACCCGCAGUCACAGCUGAAACUUCUUGUCACCCGUGGUAAGG,.(((.(((................))))))...((...((((((.((((......((((....)))).......))))...))))))...)),-13.8
+ECP_3394,rpsH,CUGGUAAUUGUCACCAAUUGAAUCACGGGAGUAAAGACAGAUGAGCAUGCAAGAUCCGAUCGCGGAUAUGCUGACCCGUAUCCGUAACGGUC,.((((.......))))........(((((............(.(((((.....(((((....)))))))))).))))))..(((...)))..,-18.6
+ECP_3906,yidC,CCGUCCCGCCCGGACCAUUUGAUACCAGAGAACACUAACGAUGGAUUCGCAACGCAAUCUUUUAGUCAUCGCUUUGCUGUUCGUGUCUUUCA,..((((.....)))).....(((((....(((((.((((((((((((((...)).)))).......)))))..))).)))))))))).....,-16.7
+ECP_4195,nusG,GUUCGCCUGGUAUCCUUUAUCACUGGCCUGAGGUUCUGAGAUGUCUGAAGCUCCUAAAAAGCGCUGGUACGUCGUUCAGGCGUUUUCCGGUU,....((((((((.....)))))..)))..(((.(((.((....)).))).))).........(((((.(((((.....)))))...))))).,-25.4
+ECP_4268,dnaB,AAGUUUCGACCCAUUCUUUAUCUCGGUAACUCCAUUCACUAUGGCAGGAAAUAAACCCUUCAACAAACAGCAGGCUGAACCCCGCGAACGCG,.((((((((.............)))).))))((((.....)))).(((........)))..........((.((......)).)).......,-9.2

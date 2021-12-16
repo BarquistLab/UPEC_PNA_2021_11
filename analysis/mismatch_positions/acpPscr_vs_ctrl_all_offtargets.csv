@@ -134,8 +134,8 @@ ECP_2727,ECP_2727,KFF-acpPscr JVpna-14 none reverse,2,2;7
 ECP_2787,fucU,KFF-acpPscr JVpna-14 none reverse,2,2;4
 ECP_2810,ECP_2810,KFF-acpPscr JVpna-14 none,2,3;7
 ECP_2826,ECP_2826,KFF-acpPscr JVpna-14 none,2,3;7
-omrA,omrA,KFF-acpPscr JVpna-14 none,2,4;7
-omrB,omrB,KFF-acpPscr JVpna-14 none,2,4;7
+OmrA,NA,KFF-acpPscr JVpna-14 none,2,4;7
+OmrB,NA,KFF-acpPscr JVpna-14 none,2,4;7
 ECP_2857,ECP_2857,KFF-acpPscr JVpna-14 none,2,4;6
 ECP_2887,ECP_2887,KFF-acpPscr JVpna-14 none reverse,2,6;8
 ECP_2895,bglA,KFF-acpPscr JVpna-14 none,2,1;2
@@ -150,7 +150,7 @@ ECP_3007,ECP_3007,KFF-acpPscr JVpna-14 none reverse,2,5;10
 ECP_3022,kpsD,KFF-acpPscr JVpna-14 none,2,4;6
 ECP_3032,ECP_3032,KFF-acpPscr JVpna-14 none,2,6;8
 ECP_3038,ECP_3038,KFF-acpPscr JVpna-14 none reverse,2,6;7
-ECP_3062,AKN40_0794,KFF-acpPscr JVpna-14 none,2,3;9
+ECP_3062,ECP_3062,KFF-acpPscr JVpna-14 none,2,3;9
 ECP_3065,ECP_3065,KFF-acpPscr JVpna-14 none,2,2;4
 ECP_3202,yhaL,KFF-acpPscr JVpna-14 none,2,6;7
 ECP_3344,ECP_3344,KFF-acpPscr JVpna-14 none reverse,2,2;6

@@ -1,12 +1,12 @@
 #srna annotation
 
 I first downloaded the e. coli K12 genome (Juun 16, 2021) from NCBI. Then I extracted all
-ncRNAS and antisense_rna entries from the fasta usig the gff annotation.
+ncRNAS and antisense_rna entries from the fasta using the gff annotation.
 Then I just blasted all of the sRNAs from K12 to the UPEC (536) genome and took for each
 query only the match with the lowest p-value, using :
 
 ```bash
-blastn -query srnas.fasta -subject ecoli536.fasta -max_target_seqs 1 -out blast_srnas.txt
+blastn -query srnas.fasta -subject ecoli536.fasta -max_target_seqs 1 -out blast_srnas.txt -outfmt 6
 ```
 
 Then I manually assembled additional gff lines to put the sRNA annotations to the gff file.

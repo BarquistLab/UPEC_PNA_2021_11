@@ -106,6 +106,9 @@ test
 
 Now that I have the read count dataframe with sample names, I import them into the edgeR environment:
 ```{r}
+rownames(gwc)[rownames(gwc) == "omrA"] <- "OmrA"
+rownames(gwc)[rownames(gwc) == "omrB"] <- "OmrB"
+rownames(gwc)[rownames(gwc) == "AKN40_0794"] <- "ECP_3062"
 y <- DGEList(gwc[,-1], group = test, genes = gwc[,1,drop=FALSE])
 options(digits = 3)
 head(y$samples)
@@ -252,61 +255,8 @@ top <- topTags(res_andev, n=nrow(set))$table
 empirical <- rownames(set)[which(!(rownames(set) %in% rownames(top)[1:3000]))]
 ```
 
-Now we do RUVg using the least significantly changing genes as negative controls and create RLE and PCA plots again. We look at the plots for all different k using a loop (output not shown here, saved as pdf):
-```{r, echo=F, results = 'hide'}
-for (k in 1:(length(test)-1)) {   
-      par(mfrow=c(1,2))
-      set_RUVg <- RUVg(set, empirical, k=k)
-     plotRLE(set_RUVg, outline=FALSE, ylim=c(-1, 1), col=colors[test],
-             main=paste(c("k = ", k)))
-      plotPCA(set_RUVg, col=colors[test], cex=1.2, main=paste(c("k = ", k)))
-}
-
-```
-k=3 improves the TMM PCA plot, so we will compare the results of both methods. 
-
-# Differential Expression analysis using RUVg
-we use RUVg normalization now with k=3:
-```{r, echo=F}
-k = 3
-set_RUVg <- RUVg(set, empirical, k=k)
-plotRLE(set_RUVg, outline=FALSE, ylim=c(-1, 1), col=colors[test],
-        main=paste(c("k = ", k)))
-plotPCA(set_RUVg, col=colors[test], cex=1)
-
-plotRLE(set_RUVg, col=colors[test], cex=9,labels=F, outline=FALSE, ylim=c(-1, 1), xaxt="none")
-legend("topleft", legend = levels(test),  col=colors,  pch=rep(15,3), ncol=6 )
-
-# save as svg:
-svg("../analysis/PCA_RUVg.svg")
-plotPCA(set_RUVg, col=mycolors[test], cex=1)
-dev.off()
-
-#only for acpp:
-mycolors <- colorRampPalette(brewer.pal(3, "Set1"))(3)
-a <- normCounts(set_RUVg)
 
 
-a_t <- a[, grepl("acpP|control_\\d$", colnames(a))]
-t_a <- as.factor(gsub("(*)_\\d", "\\1", colnames(a_t)))
-plotPCA(a_t, col=mycolors[t_a])
-
-
-svg("../analysis/PCA_acpp.svg")
-plotPCA(a_t, col=mycolors[t_a], xlim = c(-0.6, 0.6))
-dev.off()
-
-mycolors <- colorRampPalette(brewer.pal(8, "Set1"))(16)
-
-a_alle <- a[, !grepl("adk|tnaB|rnpA", colnames(a))]
-t_allex <- as.factor(gsub("_\\d[ab]?", "", colnames(a_alle)))
-
-svg("../analysis/PCA_all.svg")
-plotPCA(a_alle, col=mycolors[t_allex], xlim = c(-0.4, 0.4))
-dev.off()
-
-
-```
 
 We first create a new design matrix (with matrix W):
 ```{r}
@@ -386,7 +336,7 @@ Now I create a function which makes nice volcano-plots and run it on all the res
 ```{r}
 do_volcano <- function(restab, targetgene = NULL, pointsize = 2, x_limit = F,y_limit=F, show_sig = F, alpha=0.05, 
                        minlogfc=1, title = "Volcano", off_target_list = NULL, phopq = NULL, add_labels=T) {
-  cols = c("target"="red","0 mm"="cyan", "1 mm"="blue","2 mm"="darkblue", "PhoPQ"="darkred")
+  cols = c("target"="red","0 mm"="cyan", "1 mm"="blue","2 mm"="darkblue")
   rownames(restab) <- gsub("^([^A-Z].+)" , "italic('\\1')" , rownames(restab))
   g_labels <- gsub("^([^A-Z].+)" , "italic('\\1')" , targetgene)
   g = ggplot(restab) +
@@ -560,7 +510,10 @@ alt_names["ECP_0027"] = "ispH"
 alt_names["ECP_2607"] = "rplS"
 alt_names["ECP_2656"] = "csrA"
 alt_names["ECP_3394"] = "rpsH"
-
+#alt_names["omrA"] = "OmrA"
+#alt_names["omrB"] = "OmrB"
+names(alt_names)[names(alt_names)=="AKN40_0794"] <- "ECP_3062"
+alt_names[names(alt_names)=="ECP_3062"] <- "ECP_3062"
 
 startot$genenames <- alt_names[startot$trans_id]
 otherot$genenames <- alt_names[otherot$trans_id]
@@ -585,22 +538,25 @@ for (resname in names(all_res_tmm)){
   restab$locus_tag <- rownames(restab)
   rownames(restab) <- make.unique(alt_names)
   #rownames(restab) <- make.unique(alt_names)
+  startot[startot$trans_id=="omrA",1] <- "OmrA"
+  startot[startot$trans_id=="omrB",1] <- "OmrB"
+  startot[startot$trans_id=="ECP_3062",1] <- "ECP_3062" 
   
   hist(restab$PValue, breaks=100, main=resname)
   
   # check for off-targets (with 0,1,2 mismatches):
   targetgene <- gsub("_.*", "" , resname)
-  offt_zero_mm <- startot %>% filter(grepl(targetgene, probe_id) & num_mismatch==0) %>% 
+  offt_zero_mm <- startot %>% filter(grepl(paste0(targetgene[1], " "), probe_id) & num_mismatch==0) %>% 
     select(c(trans_id,genenames, probe_id, num_mismatch, mismatch_pos)) 
   list_ot_0[[targetgene]] <- ifelse(is.na(alt_names[offt_zero_mm$trans_id]), offt_zero_mm$trans_id, 
                                     alt_names[offt_zero_mm$trans_id])
   
-  offt_one_mm <- startot %>% filter(grepl(targetgene, probe_id) & num_mismatch==1) %>% 
+  offt_one_mm <- startot %>% filter(grepl(paste0(targetgene[1], " "), probe_id) & num_mismatch==1) %>% 
     select(c(trans_id,genenames,  probe_id, num_mismatch, mismatch_pos)) 
   list_ot_1[[targetgene]] <- ifelse(is.na(alt_names[offt_one_mm$trans_id]), offt_one_mm$trans_id, 
                                     alt_names[offt_one_mm$trans_id])
   
-  offt_two_mm <- startot %>% filter(grepl(targetgene, probe_id) & num_mismatch==2) %>% 
+  offt_two_mm <- startot %>% filter(grepl(paste0(targetgene[1], " "), probe_id) & num_mismatch==2) %>% 
     select(c(trans_id,genenames, probe_id, num_mismatch, mismatch_pos))
   
   list_ot_2[[targetgene]] <- ifelse(is.na(alt_names[offt_two_mm$trans_id]), offt_two_mm$trans_id, 
@@ -1115,7 +1071,27 @@ link_kegg <- link_kegg[names(link_kegg) %in% c(rownames(all_res_tmm$acpP_vs_ctrl
 idx_kegg <- sapply(kegg_pw_ids, function(x){
   x <- unique(names(link_kegg[link_kegg == x])) # choose all genes, except duplucates
 })
+idx_kegg$PhoPQ <- c("ECP_1553", "ECP_2118","ECP_2395","ECP_2767","ECP_4564","ECP_4785","ECP_3295",
+                         "ECP_4492","ECP_0828","ECP_0653","ECP_1587")
+
 ```
+
+Adding other regulons (with regulated genes):
+```{r}
+# load regulondb
+regulondb <- read_delim("../data/pathway_annotation/regulonDB.txt", comment = "#",
+                        show_col_types = FALSE)
+# get all regulated genes per regulon:
+regulons <- sapply(unique(regulondb$TF_name), function (x){
+  g_names <- regulondb %>% filter(TF_name == x & reg_effect=="+") %>% 
+    select(gene_name) %>% unlist %>%unname
+  names(alt_names[alt_names %in% g_names])
+})
+regulons$PhoP <- NULL
+idx_kegg <- append(idx_kegg, regulons)
+```
+
+
 
 ```{r}
 l <- length(colnames(con))
@@ -1152,6 +1128,7 @@ kegg_siggos <- unique(kegg_siggos[!grepl("NA", kegg_siggos)])
 Create a heatmap-df  for KEGG:
 ```{r}
 idx_kegg_char <- lapply(idx_kegg, as.character)
+
 
 # I create a dataframe with mean logFC values for each significant GO-term:
 hm_kegg <- t(as.data.frame(lapply(idx_kegg_char[kegg_siggos], function(x){
@@ -1222,9 +1199,63 @@ dev.off()
 ```
 
 
+Check whether mRNA sec. structure has effect:
+```{r}
+mfe_table <- read.delim("../data/table_efficiency_PNAs.tab.csv")
+
+mfe_plot <- mfe_table %>% ggplot(aes(x=-MFE, y=X.log2FC, color=significant, label=gene_name)) + geom_point(size=4) +
+  scale_color_manual(values=c('steelblue','orange')) + theme_minimal() +
+  xlab("mRNA structure (negative MFE)") + ylab("differential mRNA level (log2FC)") + geom_text_repel()
+
+svg("../analysis/mfe_plot.svg")
+print(mfe_plot)
+dev.off()
+```
+
 
 Packages used:
 ```{r}
 sessionInfo()
+```
+melting, comparison goltermann with our data:
+```{r}
+library(scales)
+length <- c(8,9,11,12,14,16,18)
+Tm_golt <- c(50,55,72,75,80,81,84)
+Tm_pred <- c(46.2,56.4, 73.8,79, 87.7, 91.8, 99.7)
+Tm_pred_rna <- c(34.2,42.9, 57.3,61, 66.7, 67.8, 72.7)
+Tm_pred_pna_dna <- c(34.2, 39.6, 53.3, 56.7, 65.2, 67.1, 72.2)
+df_melt <- data.frame(Tm=c(Tm_golt, Tm_pred, Tm_pred_rna, Tm_pred_pna_dna), 
+                      Experiment =  c(rep("Goltermann et al. 2019", 7),
+                                      rep("predicted Tm", 7),
+                                      rep("predicted Tm RNA-RNA", 7),
+                                      rep("predicted Tm PNA-DNA", 7)),
+                      length=rep(length,4))
+plt <- df_melt %>% filter(Experiment != "predicted Tm") %>%
+  ggplot(aes(x=length, y=Tm, group=Experiment, color=Experiment)) + geom_line(size=1) + 
+  geom_point()+theme_minimal() + scale_color_brewer(palette="Paired") + 
+  scale_x_continuous(breaks= pretty_breaks()) + ggtitle("Tm comparison")
+svg("../analysis/plot_Tm.svg", height = 5, width=7)
+print(plt)
+dev.off()
+
+library(rmelting)
+library(Biostrings)
+fasta <- as.data.frame(readDNAStringSet("../data/off_targets_search/pnas.fasta"))
+colnames(fasta) <- "PNA_sequence"
+fasta$Tm_PNAs <- sapply(fasta$PNA_sequence, function(x) melting(sequence = x, nucleic.acid.conc = 0.000008, hybridisation.type = "rnarna", Na.conc = 0.1)$Results$`Melting temperature (C)`)
+fasta$genename <- gsub("KFF-([^ ]*).*","\\1" , rownames(fasta))
+df_tms <- fasta %>% filter(genename %in% rownames(hm_targets$fc))
+# get log2fc for each pna:
+l2fcs <- sapply(1:11, function(x){
+  log2FC <- hm_targets$fc[x,x]
+})
+names(l2fcs) <- rownames(hm_targets$fc)
+df_tms$log2fc <- l2fcs[df_tms$genename]
+# add sec str
+sec_str <- read.delim("../data/secondary_structure_calc/sec_structure_mod.csv", sep = ",")
+rownames(sec_str) <- sec_str$gene_name
+df_tms$MFE <- sec_str[df_tms$genename,]$MFE
+
 ```
 
