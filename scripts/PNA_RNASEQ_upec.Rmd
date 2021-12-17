@@ -710,15 +710,22 @@ pvals_ordered <- pvals[order(logchange[,1]),]
 
 Now I can generate heatmaps. I start with using the 10 most sign genes per sample:
 ```{r}
-topDEgenes <- unique(unlist(lapply(all_res_tmm, function(x) c(rownames(topTags(x, n=5)), rownames(topTags(x, n=5, sort.by = "logFC"))))))
+topDEgenes <- unique(c(unlist(lapply(all_res_tmm, function(x) c(rownames(topTags(x, n=5)), rownames(topTags(x, n=5, sort.by = "logFC"))))), targets))
 topDEgenes[topDEgenes %in% targets] <- names(targets[match(topDEgenes[topDEgenes %in% targets] , targets)])
 
 hm_high_de <- list(cpm = logCPM_ordered[rownames(logCPM_ordered) %in% c(topDEgenes,targets, names(targets)),], 
                    fc = logchange_ordered[rownames(logchange_ordered) %in% c(topDEgenes,targets, names(targets)),],
                    pvals_ordered = pvals_ordered[rownames(pvals_ordered) %in% c(topDEgenes,targets, names(targets)),])
 
-# add genes:
-rownames(hm_high_de$fc) <- sapply(rownames(hm_high_de$fc), function (x) {
+o <- gsub("_vs_ctrl", "", colnames(logchange_ordered[-2]))
+new_hm_high_de <- lapply(hm_high_de, function(x){
+  df <- rbind(x[o,], x[!(rownames(hm_high_de$fc) %in% o),])
+  cbind(df[,grepl("acpP.*scr", colnames(df))], df[,!grepl("acpP.*scr", colnames(df))])
+})
+colnames(new_hm_high_de$fc)[1]<- "acpPscr_vs_ctrl"
+
+# add genenames:
+rownames(new_hm_high_de$fc) <- sapply(rownames(new_hm_high_de$fc), function (x) {
   if (x %in% names(alt_names)) {
     x <- alt_names[x]
   } else {
@@ -726,23 +733,38 @@ rownames(hm_high_de$fc) <- sapply(rownames(hm_high_de$fc), function (x) {
   }
 }) 
 
-
+new_hm_high_de <- lapply(new_hm_high_de, function(x){
+  t(x)
+})
 #rownames(hm_high_de$fc) <- ifelse(grepl("ECP", rownames(hm_high_de$fc)), rownames(hm_high_de$fc), expression(italic( rownames(hm_high_de$fc))))
-ht_high_de <- Heatmap(hm_high_de$fc, name = "Log2 FC",
-               col = circlize::colorRamp2(c(-2, 0, 2), c("blue", "white", "red")),
-               cluster_rows = F, cluster_columns = F, show_heatmap_legend = T,
+
+col_fun <- circlize::colorRamp2(c(-2, 0, 2), c("blue", "white", "red"))
+ht_high_de <- Heatmap(new_hm_high_de$fc, name = "Log2 FC",
+               col = col_fun,
+               cluster_rows = F, cluster_columns = F, show_heatmap_legend = F,
                cell_fun = function(j, i, x, y, width, height, fill) {
-                 grid.text(sprintf("%.1s", as.matrix(hm_high_de$pvals_ordered)[i, j]), x, y, gp = gpar(fontsize = 10))
-               }, show_row_names = T, border = TRUE, row_names_gp = gpar(fontsize =9),
-               column_names_gp = gpar(fontsize = 9),
-               column_names_max_height=max_text_width(colnames(hm_high_de),gp = gpar(fontsize = 9)),
-               width = unit(15, "cm"), height = unit(40, "cm"), row_dend_width = unit(6, "cm"), 
-               column_names_rot = 45)#,
+                 grid.text(sprintf("%.1s", as.matrix(new_hm_high_de$pvals_ordered)[i, j]), x, y, gp = gpar(fontsize = 10))
+               }, show_row_names = T, border = TRUE, row_names_gp = gpar(fontsize =11),
+               column_names_gp = gpar(fontsize = 10), 
+               column_names_max_height=max_text_width(colnames(new_hm_high_de),gp = gpar(fontsize = 9)),
+               width = unit(40, "cm"), height = unit(10, "cm"), row_dend_width = unit(6, "cm"), 
+               column_names_rot = 45, 
+               column_split = factor(c(rep("targets", 11),rep("strongly regulated transcripts",dim(new_hm_high_de$fc)[2]-11)),
+                                     levels = c("targets", "strongly regulated transcripts")),
+               column_gap = unit(2,"mm"), cluster_column_slices=FALSE)
+#,
                #column_dend_height = unit(3, "cm"), column_title_gp = gpar(fontsize = 40),
                #show_row_dend = F, show_column_dend = F, column_names_rot = 45)
 
-svg("../analysis/hm_high_de_new.svg", width = 12, height = 30)
+lgd = Legend(col_fun = col_fun, title = expression("Log"[2]*" FC"), labels_gp = gpar(fontsize = 10),
+             title_gp = gpar(fontsize = 15),grid_width =  unit(0.8, "cm"),
+             at = c(-2, 0, 2), legend_width = unit(4, "cm"),
+             labels = c("-2", "  0", "  2"), legend_height = unit(3, "cm"),
+             title_position = "topcenter", direction = "horizontal")
+
+svg("../analysis/hm_high_de_targets.svg", width = 21, height = 10)
 draw(ht_high_de)
+draw(lgd, x = unit(25, "cm"), y = unit(20, "cm"), just = c("left", "bottom"))
 dev.off()
 
 ```
@@ -1245,6 +1267,7 @@ fasta <- as.data.frame(readDNAStringSet("../data/off_targets_search/pnas.fasta")
 colnames(fasta) <- "PNA_sequence"
 fasta$Tm_PNAs <- sapply(fasta$PNA_sequence, function(x) melting(sequence = x, nucleic.acid.conc = 0.000008, hybridisation.type = "rnarna", Na.conc = 0.1)$Results$`Melting temperature (C)`)
 fasta$genename <- gsub("KFF-([^ ]*).*","\\1" , rownames(fasta))
+fasta$locus_tag <- gsub(".*(ECP.*)","\\1" , rownames(fasta))
 df_tms <- fasta %>% filter(genename %in% rownames(hm_targets$fc))
 # get log2fc for each pna:
 l2fcs <- sapply(1:11, function(x){
@@ -1256,6 +1279,15 @@ df_tms$log2fc <- l2fcs[df_tms$genename]
 sec_str <- read.delim("../data/secondary_structure_calc/sec_structure_mod.csv", sep = ",")
 rownames(sec_str) <- sec_str$gene_name
 df_tms$MFE <- sec_str[df_tms$genename,]$MFE
+df_tms_mfe <- df_tms[,c(4,3,1,2,6,5)]
+write.csv(df_tms_mfe, "../data/table_MFE_Tm.csv", row.names = F)
+
+plot_tm <- df_tms_mfe %>% ggplot(aes(x=Tm_PNAs, y=log2fc, label=genename)) + geom_point(size=3) + 
+  theme_minimal() + geom_text_repel()
+svg("../analysis/plot_tm.svg")
+print(plot_tm)
+dev.off()
+
 
 ```
 
