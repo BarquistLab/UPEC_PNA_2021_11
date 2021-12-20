@@ -43,10 +43,11 @@ align_rna_reads_genome(){
 			     ref=$PROJECT/reference_sequences/FQ312003_wplasmids.fa \
 			     k=8 ambig=random outm=$DIR/$NAME.bam
         # sort sam file, create BAM file:
-        samtools sort -O BAM -@ 40 $DIR/$NAME.sam > $DIR/$NAME.bam
-        # remove sam file: (not actually needed)
-        rm $DIR/$NAME.sam
-    done
-}
-
-main  
+        samtools sort -O BAM -@ 40 $DIR/$NAME.sam > $DIR/$NAME
+	samtools index $DIR/$NAME.bam                                                                                                                             
+        # remove sam file: (not actually needed)                                                                                                                  
+        rm $DIR/$NAME.sam                                                                                                                                         
+    done                                                                                                                                                          
+}                                                                                                                                                                 
+                                                                                                                                                                  
+main      

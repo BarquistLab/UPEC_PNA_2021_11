@@ -1,5 +1,5 @@
 ---
-title: "RNAseq analzsis on upec data"
+title: "RNAseq analysis on UPEC data"
 author: "Jakob Jung"
 date: "November 17, 2020"
 output:
@@ -7,7 +7,7 @@ output:
   html_document:
     df_print: paged
 ---
-Here I perform the downstream analysis of the RNAseq experiment, in which EHEC was challenged with PNA targeting the different genes. RNAseq was performed to determine transcriptome changes upon exposure to PNA. 
+Here I perform the downstream analysis of the RNAseq experiment, in which UPEC was challenged with PNA targeting the different genes. RNAseq was performed to determine transcriptome changes upon exposure to PNA. 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = TRUE)
@@ -55,6 +55,20 @@ dim(GenewiseCounts)
 head(GenewiseCounts[,1:6])
 ```
 \hfill\break
+create counttable for GEO:
+```{r}
+geo_tab <- GenewiseCounts
+patty <- "\\.\\.\\.data\\.rna_align\\.(.*)\\.bam"
+colnames (geo_tab) <- gsub(patty,"\\1", colnames(geo_tab))
+geo_tab <- geo_tab[,!grepl("JVpna5[1-4]", colnames(geo_tab))]
+geo_tab <- geo_tab[,!grepl("JVpna(39|45|46)$", colnames(geo_tab))]
+geo_tab <- geo_tab[,!grepl("L210042[6-8]", colnames(geo_tab))]
+geo_tab <- geo_tab[,!grepl("L2100396_1_w_o_control\\.fq\\.gz", colnames(geo_tab))]
+
+write_delim(cbind(rownames(geo_tab),geo_tab), "../data/counttable.tsv", delim = "\t")
+```
+
+
 
 I have to change column names, since they include the whole path:
 ```{r}
