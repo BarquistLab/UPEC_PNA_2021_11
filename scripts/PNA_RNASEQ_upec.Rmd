@@ -502,7 +502,7 @@ startot$mismatch_pos <- unlist(lapply(1:dim(startot)[1], function(x) {
 
 get actual gene names:
 ```{r}
-eggnogg <- read.delim("../data/reference_sequences/eggnogg_output.tsv" ,sep = "\t",  
+eggnogg <- read.delim("../data/pathway_annotation/eggnogg_output.tsv" ,sep = "\t",  
                       header = T,row.names = 1, comment.char = "#")
 idx_names <- data.frame(cbind(rownames(eggnogg), eggnogg[,5]),row.names = rownames(eggnogg))
 colnames(idx_names) = c("locus_tag", "gene")

@@ -110,13 +110,13 @@ os.remove("../data/off_targets_search/without_start_regions1.fa")
 # now I check off-targets with up to 2 mm in target regions ....
 # (I ran it in terminal, because subprocess didnt work somehow...)
 subprocess.call(
-    ["seqmap", "2", "../data/off_targets_search/pna_targets.fasta",
+    ["seqmap", "2", "../data/off_targets_search/pnas_targets.fasta",
      "../data/off_targets_search/start_regions.fa",
      "../data/off_targets_search/pna_2mm_startregions.tab", "/output_all_matches", "/available_memory:200",
      "/forward_strand"],
     shell=True)
 subprocess.call(
-    ["seqmap", "2", "../data/off_targets_search/pna_targets.fasta",
+    ["seqmap", "2", "../data/off_targets_search/pnas_targets.fasta",
      "../data/off_targets_search/without_start_regions.fa",
      "../data/off_targets_search/pna_2mm_otherregions.tab", "/output_all_matches", "/available_memory:200",
      "/forward_strand"],
@@ -125,7 +125,7 @@ subprocess.call(
 
 # ... and in the whole ehec genome
 subprocess.run(
-    ["seqmap", "2", "../data/off_targets_search/pna_targets.fasta",
+    ["seqmap", "2", "../data/off_targets_search/pnas_targets.fasta",
      "../data/reference_sequences/ecoli536.fasta",
      "../data/off_targets_search/pna_2mm_wholegenome.tab", "/output_all_matches", "/available_memory:200"],
     shell=True)

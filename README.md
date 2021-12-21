@@ -55,4 +55,4 @@ Trimming, mapping and counting statistics are stored in the log file [./analysis
 
 Some prerequisite files need to be added beforehand such as the files in the directory [./data/off_targets_search](./data/off_targets_search)  and [./data/samples](./data/samples) . How they were generated is described in the README.md files of respective directories.
 
-To run the differential expression analysis, run the R markdown script [./scripts/PNA_RNASEQ.Rmd](./scripts/PNA_RNASEQ.Rmd) . This outputs all figures of the manuscript, which are saved as PDF and/or SVG files to the [./analysis](./analysis) directory. It might take up to 10 minutes to run this script on a low-memory laptop. 
+To run the differential expression analysis, run the R markdown script [./scripts/PNA_RNASEQ_upec.Rmd](./scripts/PNA_RNASEQ_upec.Rmd) . This outputs all figures of the manuscript, which are saved as PDF and/or SVG files to the [./analysis](./analysis) directory. It might take up to 10 minutes to run this script on a low-memory laptop. 
