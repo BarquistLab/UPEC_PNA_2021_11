@@ -48,7 +48,7 @@ I generated a tab file containing gene counts after upstream processing. Upstrea
 Firstly, I import the gene-wise counts:
 ```{r}
 GenewiseCounts <- read.delim(
-  "../data/rna_align/counttable_new.txt",sep = "\t",
+  "../data/rna_align/counttable.txt",sep = "\t",
   row.names = 1, header = T, comment.char = "#")
 
 dim(GenewiseCounts)
